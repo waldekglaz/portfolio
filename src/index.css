@@ -3,12 +3,11 @@
 :root {
   font-family: "Anton SC", system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color-scheme: light dark;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --accent: var(--pink);
 }
 
 * {

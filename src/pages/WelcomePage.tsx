@@ -15,7 +15,7 @@ const WelcomePage = () => {
           <div className="vertical">PRESENTATION</div>
           <div className="personal-info">
             <div className="email">waldekglaz@gmail.com</div>
-            <Link className="link" to="/menu">
+            <Link className="link" to="/about">
               click here to start
             </Link>
             <div className="personal-info-content">
