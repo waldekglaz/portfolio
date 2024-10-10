@@ -1,5 +1,4 @@
 import Image2 from "../assets/img/web-3706561_1280.jpg";
-import { Link } from "react-router-dom";
 
 const WelcomePage = () => {
   return (
@@ -14,19 +13,13 @@ const WelcomePage = () => {
           <div className="title">SUME</div>
           <div className="vertical">PRESENTATION</div>
           <div className="personal-info">
-            <div className="email">waldekglaz@gmail.com</div>
-            <Link className="link" to="/about">
-              click here to start
-            </Link>
-            <div className="personal-info-content">
-              <div className="line">
-                <div className="label">Name:</div>
-                <div className="value">Waldemar Glaz</div>
-              </div>
-              <div className="line">
-                <div className="label">Location:</div>
-                <div className="value">European Union / United Kingdom</div>
-              </div>
+            <div className="line">
+              <div className="label">Name:</div>
+              <div className="value">Waldemar Glaz</div>
+            </div>
+            <div className="line">
+              <div className="label">Location:</div>
+              <div className="value">European Union / United Kingdom</div>
             </div>
           </div>
         </div>
