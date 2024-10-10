@@ -19,7 +19,7 @@ export function Menu() {
   return (
     <>
       <nav className={styles.menu}>
-        <ul>
+        <ul className={styles.list}>
           {menuItems.map((item, index) => (
             <li key={item} className={styles["menu-item"]}>
               <Link

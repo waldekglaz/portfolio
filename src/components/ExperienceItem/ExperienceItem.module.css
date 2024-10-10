@@ -1,0 +1,28 @@
+.container {
+  border-right: 1px solid #666;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #666;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.experience-number {
+  font-size: 88px;
+  border-radius: 50%;
+  border: 1px solid #666;
+  padding: 0 3rem;
+}
+.date {
+  text-align: center;
+  font-size: 28px;
+  padding: 1rem;
+  border-bottom: 1px solid #666;
+}
+
+.items {
+  font-size: 20px;
+}
