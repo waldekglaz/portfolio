@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Menu } from "../../components/Menu";
-import { MenuToggle } from "../../components/MenuToggle";
+// import { Menu } from "../../components/Menu/Menu";
+// import { MenuToggle } from "../../components/MenuToggle/MenuToggle";
 import useMenuAnimation from "../../hooks/useMenuAnimation";
 import { Outlet } from "react-router-dom";
 import styles from "./RootLayout.module.css";
+import { Menu, MenuToggle } from "../../components";
 
 const RootLayout = () => {
   const [isOpen, setIsOpen] = useState(false);

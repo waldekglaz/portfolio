@@ -1,7 +1,8 @@
 import styles from "./Menu.module.css";
 import { Link } from "react-router-dom";
+import PageTitle from "../PageTitle/PageTitle";
 import { useOutletContext } from "react-router-dom";
-import Hexagon from "../assets/img/hexagon-6233333_1280.jpg";
+import Hexagon from "../../assets/img/hexagon-6233333_1280.jpg";
 
 const menuItems = [
   "Home",
@@ -31,7 +32,7 @@ export function Menu() {
             </li>
           ))}
         </ul>
-        <h1 className={styles.title}>CONTENTS</h1>
+        <PageTitle text="contents" className={styles.title} />
         <div className={styles["img-container"]}>
           <img src={Hexagon} alt="menu" />
         </div>
