@@ -20,7 +20,7 @@ export function Menu() {
       <nav className={styles.menu}>
         <ul>
           {menuItems.map((item, index) => (
-            <li key={item}>
+            <li key={item} className={styles["menu-item"]}>
               <Link
                 onClick={() => setIsOpen(false)}
                 to={item === "Home" ? "/" : item.toLowerCase()}
