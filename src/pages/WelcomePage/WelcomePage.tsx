@@ -3,7 +3,7 @@ import styles from "./WelcomePage.module.css";
 
 const WelcomePage = () => {
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles["top-layer"]}>
         <div className={styles.title}>RE-</div>
         <img src={Image2} alt="image " />
@@ -25,7 +25,7 @@ const WelcomePage = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
