@@ -1,0 +1,23 @@
+.container {
+  border-right: 1px solid #666;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #666;
+  gap: 2rem;
+  padding-left: 1rem;
+}
+.date {
+  text-align: center;
+  font-size: 24px;
+  padding: 1rem;
+  border-bottom: 1px solid #666;
+}
+
+.items {
+  font-size: 18px;
+  padding: 1rem;
+}
