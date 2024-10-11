@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { About, WelcomePage, RootLayout, Experience } from "./pages";
+import { About, WelcomePage, RootLayout, Experience, Skills } from "./pages";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +18,7 @@ const router = createBrowserRouter([
         path: "/experience",
         element: <Experience />,
       },
+      { path: "/skills", element: <Skills /> },
     ],
   },
 ]);
