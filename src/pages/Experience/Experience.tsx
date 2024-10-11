@@ -24,6 +24,26 @@ const experience = [
       "I worked with a variety of technologies, including HTML, CSS, JavaScript, React, and Node.js.",
     ],
   },
+  {
+    date: "2017 - 2019",
+    title: "Web Developer",
+    company: "Freelance",
+    description: [
+      "I worked as a web developer for a variety of clients. I developed websites and applications for small businesses and individuals.",
+      "I worked on a variety of projects, including e-commerce websites, blogs, and portfolios.",
+      "I worked with a variety of technologies, including HTML, CSS, JavaScript, React, and Node.js.",
+    ],
+  },
+  {
+    date: "2015 - 2017",
+    title: "Web Developer",
+    company: "Freelance",
+    description: [
+      "I worked as a web developer for a variety of clients. I developed websites and applications for small businesses and individuals.",
+      "I worked on a variety of projects, including e-commerce websites, blogs, and portfolios.",
+      "I worked with a variety of technologies, including HTML, CSS, JavaScript, React, and Node.js.",
+    ],
+  },
 ];
 
 const Experience = () => {

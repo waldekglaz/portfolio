@@ -1,24 +1,39 @@
 import React from "react";
 import styles from "./ExperienceItem.module.css";
+import BigCircle from "../BigCircle/BigCircle";
 
-const ExperienceItem = ({ number, item }) => {
+interface ExperienceItemProps {
+  number: number;
+  item: {
+    date: string;
+    title: string;
+    company: string;
+    description: string[];
+  };
+}
+
+const ExperienceItem = ({ number, item }: ExperienceItemProps) => {
   const { date, title, company, description } = item;
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <h2 className={styles["header-title"]}>EXPERIENCE</h2>
-        <p className={styles["experience-number"]}>{number}</p>
+        <BigCircle text={number.toString()} />
       </div>
-      <div className={styles.date}>{date}</div>
+      <div className={styles.date}>
+        {date}
+        <br />
+        {title}
+        <br />
+        {company}
+      </div>
       <div className={styles.content}>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.company}>{company}</p>
         <div className={styles.description}>
-          <ul className={styles.items}>
+          <div className={styles.items}>
             {description.map((item, index) => (
-              <li key={index}>{item}</li>
+              <p key={index}>{item}</p>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </div>
